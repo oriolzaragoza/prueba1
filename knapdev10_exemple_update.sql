@@ -14,5 +14,6 @@ select count('x')
     update knapdev10 k
     set k.status = '90'
     where k.status = '85';
+	dbms_output.put_line ('En total updateamos '||l_cnt||'');
   end if;
 end;
