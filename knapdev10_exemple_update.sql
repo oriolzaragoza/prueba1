@@ -10,6 +10,7 @@ select count('x')
 
   if l_cnt > 0 then
     dbms_output.put_line ('En total updateamos '||l_cnt||'');
+	dbms_output.put_line ('En total updateamos '||l_cnt||'');
 
     update knapdev10 k
     set k.status = '90'
